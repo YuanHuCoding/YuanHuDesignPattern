@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config>
+    <!--RefinedAbstraction-->
+    <className>me.yuanhu.core.DesignPattern.BridgePattern.Example.JPGImage</className>
+    <!--ConcreteImplementor-->
+    <className>me.yuanhu.core.DesignPattern.BridgePattern.Example.WindowsImp</className>
+</config>

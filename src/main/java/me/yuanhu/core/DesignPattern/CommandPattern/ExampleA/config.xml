@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config>
+    <className>me.yuanhu.core.DesignPattern.CommandPattern.ExampleA.HelpCommand</className>
+    <className>me.yuanhu.core.DesignPattern.CommandPattern.ExampleA.MinimizeCommand</className>
+</config>

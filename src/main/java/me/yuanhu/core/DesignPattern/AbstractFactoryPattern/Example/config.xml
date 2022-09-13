@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config>
+    <className>me.yuanhu.core.DesignPattern.AbstractFactoryPattern.Example.SpringSkinFactory</className>
+</config>

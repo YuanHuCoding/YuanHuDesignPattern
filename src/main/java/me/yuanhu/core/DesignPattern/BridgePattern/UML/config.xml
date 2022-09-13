@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config>
+    <!--RefinedAbstraction-->
+    <className>me.yuanhu.core.DesignPattern.BridgePattern.UML.RefinedAbstractionA</className>
+    <!--ConcreteImplementor-->
+    <className>me.yuanhu.core.DesignPattern.BridgePattern.UML.ConcreteImplementorA</className>
+</config>
