@@ -4,7 +4,7 @@ import java.io.ObjectStreamException;
 import java.io.Serializable;
 import java.lang.reflect.Constructor;
 
-//饿汉式单例模式
+//饿汉式单例模式(线程安全)
 public class Singleton_Eager implements Serializable {
     private static final long serialVersionUID = -1L;
     private static boolean flag = false;

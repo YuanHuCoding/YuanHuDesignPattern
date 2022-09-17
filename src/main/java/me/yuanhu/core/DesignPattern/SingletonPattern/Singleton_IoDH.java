@@ -4,7 +4,7 @@ import java.io.ObjectStreamException;
 import java.io.Serializable;
 import java.lang.reflect.Constructor;
 
-// 采用IoDH(Initialization on Demand Holder)技术的单例模式。也是老版《Effective Java》中推荐的单例模式。
+// 采用IoDH(Initialization on Demand Holder)技术的单例模式(线程安全)。也是老版《Effective Java》中推荐的单例模式。
 public class Singleton_IoDH implements Serializable {
     private static final long serialVersionUID = -1L;
     private static boolean flag = false;

@@ -1,6 +1,6 @@
 package me.yuanhu.core.DesignPattern.SingletonPattern;
 
-//不暴露枚举类实现细节的枚举单例模式
+//不暴露枚举类实现细节的枚举单例模式(线程安全)
 public class Singleton_Enum_Perfect {
 
     public static Singleton_Enum_Perfect getInstance(){

@@ -3,7 +3,7 @@ package me.yuanhu.core.DesignPattern.SingletonPattern;
 import java.io.*;
 import java.lang.reflect.Constructor;
 
-//采用双重检验锁(Double-Checked SpinLock)技术的懒汉式单例模式。
+//采用双重检验锁(Double-Checked SpinLock)技术的懒汉式单例模式(线程安全)。
 public class Singleton_LazyDoubleChecked implements Serializable {
     private static final long serialVersionUID = -1L;
     private static boolean flag = false;
